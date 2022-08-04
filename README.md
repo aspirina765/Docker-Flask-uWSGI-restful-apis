@@ -19,12 +19,16 @@ docker build -t flask-uwsgi:latest .
 
 Então você pode executar o container de docker executando o seguinte comando no terminal:
 
+OBS.: Dá para mudar a porta 5000 para qualquer outra disponível. 
+
 ```
-docker run -p 5002:5007 flask-uwsgi:latest
+docker run -p 5000:5007 flask-uwsgi:latest
 ```
 
 E teste a aplicação com o o comando curl:
 
 ```
-curl -v "http://localhost:5002/"
+curl -v "http://localhost:5000/"
 ``` 
+
+O arquivo k8s_app.yaml pode servir de modelo em deploy da aplicação em kubernetes. 
