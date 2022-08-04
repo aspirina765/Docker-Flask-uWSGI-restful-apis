@@ -25,7 +25,7 @@ OBS.: Dá para mudar a porta 5000 para qualquer outra disponível.
 docker run -p 5000:5007 flask-uwsgi:latest
 ```
 
-E teste a aplicação com o o comando curl:
+E teste a aplicação com o comando curl:
 
 ```
 curl -v "http://localhost:5000/"
