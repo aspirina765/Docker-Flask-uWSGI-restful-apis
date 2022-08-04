@@ -1,9 +1,9 @@
 # Docker-Flask-uWSGI
 
-Container de docker com uWSGI para aplicações de Flask em Python 3
+Container de docker com uWSGI para aplicações de Flask em Python 3.8
 
 ## Descrição
-Esta imagem de Docker é um exemplo de como criar uma aploicação web de Flask em Python 3 que tenha uWSGI.
+Esta imagem de Docker é um exemplo de como criar uma aploicação web de Flask em Python 3.8 que tenha uWSGI.
 
 É um exemplo de como criar seu próprio container e escalar os processos com o arquivo ini de uWSGI.
 
