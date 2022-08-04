@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: flask-pod
+spec:
+   containers:
+   - name: flask-container01
+     image: localhost/flask-uwsgi:latest 
+     ports:
+     - containerPort: 5007
